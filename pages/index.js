@@ -1,15 +1,19 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-export default function Home(){
+export default function Home() {
   return (
     <div className={styles.container}>
       <header className={styles.hero}>
         <div className={styles.avatarWrap}>
-          <img src="/images/headshots/theo.jpg" alt="Theo headshot" className={styles.avatar} />
+          <img
+            src="/images/headshots/danny.jpg"
+            alt="Danny Dhas headshot"
+            className={styles.avatar}
+          />
         </div>
-        <h1>Find Your Dream Home</h1>
-        <p>Your trusted partner in Los Angeles real estate</p>
+        <h1>Find Your Dream Home in Las Vegas</h1>
+        <p>Danny Dhas — Your trusted Las Vegas real estate expert</p>
         <Link href="/listings" className={styles.cta}>
           Browse Listings
         </Link>
@@ -18,7 +22,7 @@ export default function Home(){
       <section className={styles.features}>
         <div className={styles.feature}>
           <h3>Buy</h3>
-          <p>Browse our curated selection of homes for sale.</p>
+          <p>Browse our curated selection of Las Vegas homes for sale.</p>
         </div>
         <div className={styles.feature}>
           <h3>Sell</h3>
@@ -26,21 +30,21 @@ export default function Home(){
         </div>
         <div className={styles.feature}>
           <h3>Rent</h3>
-          <p>Find the perfect rental in your ideal neighborhood.</p>
+          <p>Find the perfect rental in your ideal Las Vegas neighborhood.</p>
         </div>
       </section>
 
       <section className={styles.about}>
-        <h2>About Us</h2>
+        <h2>About Danny</h2>
         <p>
-          We are a full-service real estate team dedicated to helping you
-          navigate the LA market with confidence. Whether you are buying,
-          selling, or renting, we have got you covered.
+          Danny Dhas is a full-service Las Vegas realtor dedicated to helping
+          you navigate the market with confidence. Whether you are buying,
+          selling, or renting, Danny has got you covered.
         </p>
       </section>
 
       <footer className={styles.footer}>
-        <p>&copy; 2026 Theo Ayala Real Estate. All rights reserved.</p>
+        <p>&copy; 2026 Danny Dhas Real Estate. All rights reserved.</p>
       </footer>
     </div>
   );
