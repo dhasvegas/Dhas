@@ -7,7 +7,7 @@
     "beds": 2,
     "baths": 2,
     "sqft": 1200,
-    "image": "/images/listing-1.jpg",
+    "image": "https://picsum.photos/seed/listing-1/600/400",
     "description": "Stunning modern condo in the heart of downtown with panoramic city views, open floor plan, and premium finishes throughout."
   },
   {
@@ -18,7 +18,7 @@
     "beds": 4,
     "baths": 3,
     "sqft": 2400,
-    "image": "/images/listing-2.jpg",
+    "image": "https://picsum.photos/seed/listing-2/600/400",
     "description": "Spacious family home on a quiet tree-lined street. Updated kitchen, hardwood floors, large backyard with pool."
   },
   {
@@ -29,7 +29,7 @@
     "beds": 3,
     "baths": 2,
     "sqft": 1800,
-    "image": "/images/listing-3.jpg",
+    "image": "https://picsum.photos/seed/listing-3/600/400",
     "description": "Wake up to ocean views every morning. This beachfront property features floor-to-ceiling windows, a private deck, and direct beach access."
   },
   {
@@ -40,7 +40,7 @@
     "beds": 3,
     "baths": 1,
     "sqft": 1400,
-    "image": "/images/listing-4.jpg",
+    "image": "https://picsum.photos/seed/listing-4/600/400",
     "description": "Classic craftsman charm with original woodwork, built-in shelving, covered porch, and a beautifully landscaped garden."
   }
 ]
