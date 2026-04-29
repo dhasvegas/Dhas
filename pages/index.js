@@ -34,6 +34,12 @@ export default function Home() {
         </div>
       </section>
 
+      <section className={styles.meet}>
+        <h2>Meet Danny Dhas</h2>
+        <img src="/images/headshots/danny-meet.jpg" alt="Meet Danny Dhas" className={styles.meetImage} />
+        <p>Bio: Danny Dhas is a Las Vegas realtor dedicated to helping you navigate the market with confidence. Whether you are buying, selling, or renting, Danny has got you covered.</p>
+      </section>
+
       <section className={styles.about}>
         <h2>About Danny</h2>
         <p>
