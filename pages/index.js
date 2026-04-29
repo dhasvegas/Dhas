@@ -1,10 +1,13 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function Home(){
   return (
     <div className={styles.container}>
       <header className={styles.hero}>
+        <div className={styles.avatarWrap}>
+          <img src="/images/headshots/theo.jpg" alt="Theo headshot" className={styles.avatar} />
+        </div>
         <h1>Find Your Dream Home</h1>
         <p>Your trusted partner in Los Angeles real estate</p>
         <Link href="/listings" className={styles.cta}>
