@@ -1,0 +1,80 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 60px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 32px;
+  opacity: 0.9;
+}
+
+.cta {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 14px 36px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+
+.cta:hover {
+  background: #c73e54;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.feature {
+  background: #f8f9fa;
+  padding: 40px 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+  color: #1a1a2e;
+}
+
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #eee;
+  color: #888;
+  font-size: 0.9rem;
+}

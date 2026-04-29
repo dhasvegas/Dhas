@@ -1,17 +1,41 @@
-# Danny Dhas Luxury Real Estate Website
+# Theo Ayala Real Estate
 
-Upload these files to GitHub at the top level of your repo:
+A modern realtor website built with Next.js.
 
-- package.json
-- index.html
-- src/
+## Pages
 
-Do not upload this README if you don't want it, but it is safe to include.
+- **Home** (`/`) — Hero section, features, about
+- **Listings** (`/listings`) — Property listing grid
+- **Listing Detail** (`/listings/[id]`) — Individual property view
+- **Contact** (`/contact`) — Contact form
 
-Vercel settings:
-- Framework Preset: Vite
-- Install Command: npm install
-- Build Command: npm run build
-- Output Directory: dist
+## Getting Started
 
-Important: Do not upload the ZIP itself to GitHub. Unzip it first, then upload the files inside.
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## GitHub Desktop Workflow
+
+1. Open GitHub Desktop
+2. Add this folder as a local repository: File → Add Local Repository → select `realtor-site`
+3. Commit your changes with a clear message
+4. Create a repository on GitHub (File → Publish Repository)
+5. Push to origin
+
+## Deploy
+
+Recommended: [Vercel](https://vercel.com) — connect your GitHub repo and it auto-deploys on push.

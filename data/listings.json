@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Downtown Condo",
+    "address": "123 Main St, Los Angeles, CA 90012",
+    "price": 650000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1200,
+    "image": "/images/listing-1.jpg",
+    "description": "Stunning modern condo in the heart of downtown with panoramic city views, open floor plan, and premium finishes throughout."
+  },
+  {
+    "id": 2,
+    "title": "Cozy Suburban Family Home",
+    "address": "456 Oak Ave, Pasadena, CA 91101",
+    "price": 875000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2400,
+    "image": "/images/listing-2.jpg",
+    "description": "Spacious family home on a quiet tree-lined street. Updated kitchen, hardwood floors, large backyard with pool."
+  },
+  {
+    "id": 3,
+    "title": "Beachfront Paradise",
+    "address": "789 Ocean Blvd, Santa Monica, CA 90401",
+    "price": 1450000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1800,
+    "image": "/images/listing-3.jpg",
+    "description": "Wake up to ocean views every morning. This beachfront property features floor-to-ceiling windows, a private deck, and direct beach access."
+  },
+  {
+    "id": 4,
+    "title": "Charming Craftsman Bungalow",
+    "address": "321 Elm St, Eagle Rock, CA 90041",
+    "price": 725000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1400,
+    "image": "/images/listing-4.jpg",
+    "description": "Classic craftsman charm with original woodwork, built-in shelving, covered porch, and a beautifully landscaped garden."
+  }
+]
